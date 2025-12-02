@@ -13,7 +13,8 @@
 * 🌦️ **Smart-Weather Module** — Displays current weather and up to 7-day forecasts, auto-detecting the visitor’s location (powered by **OpenWeatherMap**).
 
 ---
-
+API used from NEWSAPI
+---
 ### 🛠️ Tech Stack
 
 * HTML, CSS, JavaScript
@@ -33,3 +34,5 @@
 
 ---
 
+with no text - to - speech feature
+live : LIVE : https://news2feed.netlify.app/home
