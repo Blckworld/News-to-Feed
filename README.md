@@ -29,8 +29,10 @@ Of course! Here’s a **short and clean version** of your project description �
 ### 🚀 Future Enhancements
 
 * User accounts & bookmarks
-* Dark mode
+* Category filters
 * Notification alerts for trending news
+* Multi-language toggle
+* Dark/Light mode
 
 ---
 
