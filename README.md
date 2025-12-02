@@ -1,6 +1,3 @@
-Of course! Here’s a **short and clean version** of your project description — perfect for a **GitHub `README.md`** and the **About section** of your repository 👇
-
----
 
 ## 📰 News-to-Feed
 
