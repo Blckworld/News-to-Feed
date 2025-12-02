@@ -33,6 +33,8 @@ API used from NEWSAPI
 * Dark/Light mode
 
 ---
-
+# Clone the repository
+[(https://github.com/Blckworld/News-to-Feed.git)]
+---
 with no text - to - speech feature
 live : LIVE : https://news2feed.netlify.app/home
