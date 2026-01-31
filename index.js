@@ -1,4 +1,4 @@
-const generalBtn = document.getElementById("genral");
+const generalBtn = document.getElementById("general");
 const businessBtn = document.getElementById("business");
 const sportsBtn = document.getElementById("sport");
 const entertainmentBtn = document.getElementById("entertainment");
@@ -13,7 +13,7 @@ let newsDataArr = [];
 
 
 const BASE_URL = "https://newsdata.io/api/1/news";
-const API_KEY = "pub_ed7c7f02e34c443091ad96b9f85f7e12"; // 
+const API_KEY = "pub_ed7c7f02e34c443091ad96b9f85f7e12";
 
 const HEADLINES_NEWS = `${BASE_URL}?country=in&language=en&apikey=${API_KEY}`;
 const GENERAL_NEWS = `${BASE_URL}?country=in&language=en&category=top&apikey=${API_KEY}`;
@@ -182,15 +182,15 @@ function displayNews() {
             shortDescription = shortDescription.substring(0, maxLength) + "...";
         }
 
-        
+
         const col = document.createElement('div');
         col.className = "col-sm-12 col-md-4 col-lg-3 p-2 d-flex";
 
-       
+
         const card = document.createElement('div');
         card.className = "card flex-fill h-100 shadow-sm";
 
-       
+
         const image = document.createElement('img');
         image.className = "card-img-top";
         image.src = news.image_url || "https://via.placeholder.com/300x200?text=No+Image";
@@ -198,7 +198,7 @@ function displayNews() {
         image.style.height = "180px";
         image.style.objectFit = "cover";
 
-        
+
         const cardBody = document.createElement('div');
         cardBody.className = "card-body d-flex flex-column";
 
@@ -220,7 +220,7 @@ function displayNews() {
         link.href = news.link || "#";
         link.innerHTML = "Read more";
 
-       
+
         cardBody.appendChild(newsHeading);
         cardBody.appendChild(dateHeading);
         cardBody.appendChild(description);
@@ -235,9 +235,9 @@ function displayNews() {
 
 
 
-// ======================
 // Google Translate (Optional)
-// ======================
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
 }
+
+
