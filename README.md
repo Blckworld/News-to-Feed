@@ -32,6 +32,8 @@ API used from NEWSAPI
 * Multi-language toggle
 * Dark/Light mode
 
+
+
 ---
 # Clone the repository
 [(https://github.com/Blckworld/News-to-Feed.git)]
